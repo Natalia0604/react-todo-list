@@ -1,15 +1,15 @@
-import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom";
-import List from "./list.js";
+import "./HomePage.css";
+import HomePage from "./HomePage.js";
 class App extends React.Component{
     constructor(props){
         super(props);
     }
     render(){
         return <>
-            <h3>React Project DEMO</h3>
-            <List/>
+            <div class="content"></div>
+            <HomePage/>
         </>;
     }
 }
