@@ -7,6 +7,8 @@ module.exports={
     },
     //DevServer設定
     devServer: {
+        publicPath: "/",
+        historyApiFallback: true,
         contentBase: "./dist" //同output的資料夾
     },
     module:{
