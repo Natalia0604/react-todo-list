@@ -5,6 +5,10 @@ module.exports={
         filename:"main.js",
         path:path.resolve(__dirname,"dist")
     },
+    //DevServer設定
+    devServer: {
+        contentBase: "./dist" //同output的資料夾
+    },
     module:{
         rules:[
             {
